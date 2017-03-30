@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editableBook"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/enter_a_book_name_to_edit"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="?android:attr/statusBarColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editableBook"
+        android:layout_below="@+id/editableBook"
+        android:layout_marginTop="59dp"
+        android:text="@string/delete_book" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/delButton"
+        android:layout_alignBottom="@+id/delButton"
+        android:layout_toEndOf="@+id/delButton"
+        android:text="@string/save" />
+</RelativeLayout>

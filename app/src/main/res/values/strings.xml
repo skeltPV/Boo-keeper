@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Book Keeper</string>
+    <string name="add_book">Add A Book</string>
+    <string name="view_book_list">View Book List</string>
+    <string name="add_a_book">AddBook</string>
+    <string name="addBook">Add a Book</string>
+    <string name="back_to_the_main_screen">Back to main screen</string>
+    <string name="delete_book">Delete Book</string>
+    <string name="enter_a_book_name_to_edit">Enter A Book Name To Edit</string>
+    <string name="save">Save</string>
+</resources>

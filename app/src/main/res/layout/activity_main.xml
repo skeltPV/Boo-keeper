@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.ac.napier.bookkeeper.MainActivity"
+    android:background="@drawable/bookshelve">
+
+    <Button
+        android:id="@+id/addBooks"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/listBooks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:text="@string/addBook" />
+
+    <Button
+        android:id="@+id/listBooks"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/addBooks"
+        android:layout_marginBottom="53dp"
+        android:text="@string/view_book_list" />
+
+</RelativeLayout>
